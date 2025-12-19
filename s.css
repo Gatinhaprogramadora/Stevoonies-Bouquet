@@ -1,0 +1,270 @@
+/* --- S.CSS FINALIZADO E ATUALIZADO --- */
+
+/* 1. Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+/* 2. Variáveis de Cores */
+:root {
+    --stardew-brown: #462208;
+    --stardew-orange: #e09049;
+    --stardew-bg: #ffae63; 
+    --dialogue-bg: #f8eeb6; 
+}
+
+/* 3. O Site (Body) */
+body {
+    margin: 0;
+    /* Imagem de fundo */
+    background-image: url('fundo.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #2e2440;
+    
+    font-family: 'VT323', monospace;
+    font-size: 22px;
+    color: var(--stardew-brown);
+    
+    /* Cursor personalizado */
+    cursor: url('https://cur.cursors-4u.net/games/gam-13/gam1282.cur'), auto;
+    user-select: none;
+}
+
+/* Cursor de Mãozinha */
+button, a, .stardew-tab, .home-button, .envelope-item {
+    cursor: url('https://cur.cursors-4u.net/games/gam-13/gam1289.cur'), pointer;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --- HEADER & FOTO --- */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portrait-container {
+    display: inline-block;
+    padding: 6px;
+    background: #a05e26;
+    box-shadow: 
+        inset 3px 3px 0 #e6a666,
+        inset -3px -3px 0 #6d3810,
+        3px 3px 5px rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    border: 2px solid #5a3215;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: #ffdcb5;
+    text-shadow: 4px 4px 0 #6e3312;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* --- BOTÕES DAS ABAS (TABS) --- */
+.tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 0px; 
+    z-index: 10;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stardew-tab {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    padding: 14px 20px;
+    background: linear-gradient(to bottom, #e88842, #cd6d34);
+    border: 3px solid #562308;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #562308;
+    position: relative;
+    text-transform: uppercase;
+    box-shadow: 
+        inset 2px 2px 0 rgba(255,255,255,0.4),
+        0 4px 0 #853812, 
+        0 5px 5px rgba(0,0,0,0.2);
+    transition: all 0.1s;
+}
+
+.stardew-tab:not(.active):hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to bottom, #fba966, #e38249);
+    box-shadow: 
+        inset 2px 2px 0 rgba(255,255,255,0.4),
+        0 6px 0 #853812, 
+        0 8px 8px rgba(0,0,0,0.2);
+}
+
+.stardew-tab:active, .stardew-tab.active {
+    transform: translateY(4px);
+    background: #cd6d34;
+    box-shadow: 
+        inset 2px 2px 0 rgba(0,0,0,0.2), 
+        0 0 0 #853812, 
+        0 0 0 rgba(0,0,0,0);
+}
+
+/* --- CAIXA DE DIÁLOGO --- */
+.dialogue-box {
+    width: 100%;
+    background-color: var(--dialogue-bg);
+    padding: 30px;
+    position: relative;
+    line-height: 1.4;
+    min-height: 200px;
+    box-shadow: 
+        0 0 0 4px #b86f34,
+        0 0 0 8px #7a4216,
+        0 6px 12px rgba(0,0,0,0.5);
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+.next-arrow {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, #b83612 40%, transparent 40%);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    animation: blink 1s infinite;
+    opacity: 0.8;
+}
+
+@keyframes blink {
+    0%, 100% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(3px); opacity: 0.5; }
+}
+
+/* --- ESTILO DOS ENVELOPES (Para a lista de poemas) --- */
+.envelope-item {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #dba675;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s;
+}
+.envelope-item:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+.envelope-icon {
+    font-size: 24px;
+}
+
+/* --- BOTÃO HOME (CASINHA) --- */
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: #ffce63;
+    border: 3px solid #6d3810;
+    border-radius: 10px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6d3810;
+    box-shadow: 
+        inset 3px 3px 0 rgba(255,255,255,0.5),
+        0 4px 0 #6d3810, 
+        0 6px 6px rgba(0,0,0,0.3);
+    transition: all 0.1s;
+    z-index: 100;
+}
+
+.home-button:hover {
+    background-color: #ffe094;
+    transform: translateY(-2px);
+    box-shadow: 
+        inset 3px 3px 0 rgba(255,255,255,0.5),
+        0 6px 0 #6d3810, 
+        0 8px 8px rgba(0,0,0,0.3);
+}
+
+/* Estado Ativo (Clicado ou Selecionado) */
+.home-button:active, .home-button.active {
+    transform: translateY(4px);
+    background-color: #e6b650;
+    box-shadow: 
+        inset 3px 3px 0 rgba(0,0,0,0.1),
+        0 0 0 #6d3810, 
+        0 0 0 rgba(0,0,0,0);
+}
+
+/* --- MODAL (A Carta Aberta) --- */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 200;
+}
+
+#carta-modal {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    
+    background: #fff8dc;
+    padding: 30px;
+    border: 2px solid #8d5524;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    z-index: 201;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    color: #462208;
+}
+
+/* --- ESTILO DA BARRA DE ROLAGEM --- */
+#carta-modal::-webkit-scrollbar {
+    width: 14px;
+}
+#carta-modal::-webkit-scrollbar-track {
+    background: #e0c292;
+    border: 2px solid #8b4513;
+    border-radius: 4px;
+}
+#carta-modal::-webkit-scrollbar-thumb {
+    background-color: #d96a1e;
+    border: 2px solid #5e2804;
+    border-radius: 4px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 { font-size: 16px; }
+    .stardew-tab { width: 100%; margin-bottom: 5px; font-size: 10px; }
+    .dialogue-box { width: 85%; padding: 20px; }
+}

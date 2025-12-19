@@ -1,0 +1,287 @@
+// --- 1. BANCO DE DADOS DOS POEMAS ---
+const bancoDePoemas = [
+    {
+        id: 1,
+        titulo: "Vingança de sangue",
+        corpo: `Vingança de Sangue
+        
+        No silêncio da noite, ele me encontra
+Puxa-me ao monte, mostrando seu mantra
+Seus lábios percorrem meu pescoço
+Até pararem por completo sem esforço
+Meu sangue escorre, dando espaço para a dor
+A dor de mudar, tentando me preencher com passos de amor.
+
+Então me percebo, em seu olhar
+Uma presa frágil, dançando sem lugar
+Enquanto você termina de se deleitar
+Eu ganho forma, sem lhe despertar
+Tentando fugir, busca me cativar
+O que me faz grunhir e espernear
+
+Por fim, o amordaço de volta
+dessa vez ferindo apenas a escolta 
+do vampiro que tenta me consumir
+Assim te ouço sem vida
+Partindo no castigo de finalmente sumir.
+
+
+Stevoonie☆`
+    },
+    {
+        id: 2,
+        titulo: "A sedução da bruxa",
+        corpo: `A sedução da bruxa
+
+
+Me chame de sua bruxa
+Beijando meu lábios enfeitiçados 
+Minha infame sorte te puxa
+Deixando seus olhos afeiçoados.
+
+Brincarei com você entre as estrelas
+Me atirarei, tirando minhas fivelas
+Perseguindo chuvas de cometas
+Intervindo nas poeiras violetas.
+
+Sua Guitarra cínica me atiça 
+Saem minhas garras, revelo minha carniça 
+O medo anima meus nervos, faz florescer minha marca
+Correm os cervos, restando a fome de uma demonarca. 
+
+
+Stevoonie☆`
+    },
+    {
+        id: 3,
+        titulo: "Sentindo...",
+        corpo: `Sentindo...
+        
+Me tome, me beije
+Deixe cair seus belos cabelos sobre os meus
+Relaxe seu ar como a breve fúria de Zeus
+
+Sua fala atrapalhada me cativa 
+Me deixando perplexo com sua perspectiva 
+
+Me beije, me tome
+Me atire pela janela apenas com sua força brutal e sua lábia de gigante
+"Prometo ser paciente apenas por esse instante"
+Digo enquanto me engasgo com o doce amor do seu sangue.
+
+
+Stevoonie☆`
+    }
+];
+
+// --- 2. BANCO DE DADOS DAS CARTAS ---
+const bancoDeCartas = [
+    {
+        id: 1,
+        titulo: "Carta 001",
+        corpo: `Bom...
+
+
+Neste momento, já nos encontramos distantes um do outro, seja por vivência ou por memórias.
+
+
+Já lhe disse diversas coisas e você já me conhece bem, eu sei tudo o que você sente, sei como se arrepende e também sei como continua me amando. Apesar disso, ainda tenho pequenas coisas a dizer, coisas importantes talvez, mas eu sei que você vai saber.
+
+
+Eu não sinto raiva, não sinto tristeza e nem sinto rancor. Me arrependo? Um pouco, sinto que as coisas deveriam ter sido diferentes, mas eu aprendi essa lição. 
+
+
+O meu eu de agora não permite que eu me reaproxime de você, ainda me encontro ressentido pelo o que aconteceu, mas eu estou lidando com isso, você sabe como eu sei me cuidar.
+
+
+Sim, eu ainda penso em nós, penso no que aprendi com você e sobre as experiências que tive ao seu lado (sempre que passo pelos trilhos, olho para ver se te encontro alguma vez fumando seu cigarro de sempre). Saiba que continuarei te amando, por mais que eu não deva, vou continuar no nosso pequeno amor que sempre me deu conforto e carinho, como a praia que planejamos diversas vezes ir, ou o casamento que sempre lhe pedi para aceitar. Você sendo meu morceguinho e eu, seu pequeno príncipe.
+
+
+Não me esquecerei jamais do que vivemos, pelo o que sinto. Seu malício, me abriu caminhos, eu vivi mais por sua causa. Experimentei coisas que não devia? Sim, e aprendi coisas com isso.
+
+
+Novamente digo, minha adolescência foi mais louca graças a você, meu gangster. E graças a isso, eu sou mais rebelde, levando comigo minha própria revolução. Obrigado.
+
+
+Como você, também espero nos reencontrarmos no futuro, talvez... Eu não esteja mais machucada e esteja sem minhas correntes internas, livre para ser o que realmente sou à margem dos meus próprios pensamentos.
+
+
+Peço que assim como eu, tente ser uma boa pessoa, busque o melhor das pessoas assim como eu o fiz, mudando seu antigo eu para um melhor e que me fez tão feliz. E por fim, peço que pinte, pois você carrega o dom, por mais que recuse, sabes fazer coisas lindas e eu sempre o vi.
+
+
+Ficarei com saudades eternas: do meu melhor amigo,do meu parceiro, do meu bêbado e de você, meu amor.
+
+
+Com amor, Stevoonie.`
+    },
+    {
+        id: 2,
+        titulo: "carta 000-03",
+        corpo: `Okay... 
+Estamos no final do ano, você está se formando e já estou ficando com saudades. 
+Sei que estamos bem distantes (não sei muito bem o motivo) mas decidi que gostaria de te escrever uma última carta que contém coisas que gostaria de te dizer. 
+Acho que você já sabe, mas você foi a minha estrela esse ano, me ajudou mesmo sem querer a superar alguns obstáculos. Você entendeu meus sentimentos e foi gentil comigo, eu agradeço imensamente por isso. 
+Querido, o que você fez com a carta que te dei? 
+
+Peço perdão se te fiz passar por alguma situação ruim ou até mesmo ter medo, quero me desculpar também pelas minhas ações que por vezes se tornaram egoístas, 
+queria te dizer pra ter coragem como a que tenho. 
+
+Peço perdão mais uma vez pelas vezes que fingi que você não existia. Eu não queria que ninguém descobrisse que eu o amo pois sei que isso te faria mal. Enfim, gostaria de te desejar coisas boas, como a realização de seus sonhos e de seus desejos e quero que saiba que apesar de não nos falarmos mais ainda penso em ti. 
+Talvez, nunca me esquecerei de ti. 
+
+Beijos... 
+
+Amo-te. 
+
+Para: 5... 
+De: Seu por enquanto... Stevoonie. "Eu te procuro em Vênus todos os dias e todas as noites" ~ Stevoonie 
+`
+    }
+];
+
+// --- 3. BANCO DE DADOS DE OUTROS (NOVO!) ---
+const bancoDeOutros = [
+    {
+        id: 1,
+        titulo: "Registro de sonho",
+        corpo: `O sonho começa comigo estando em uma casa desconhecida, esta casa possuía móveis brancos e parecia uma casa de filme. Lembro-me de ter 2 pessoas sentadas no sofá da sala daquela casa. Um era alguém que não me recordo e outro era uma pessoa que conheço apenas de vista.
+
+Enfim, peguei uma toalha e fui ao banheiro para tomar banho (pelo menos é o que eu imagino). Depois de despido, observo pela brecha da porta e vejo que tem o mesmo rapaz que estava no sofá, porém tem um problema ele também estava despido.
+No começo eu não entendi, porém me veio uma ideia na mente ( e se eu o chamasse para tomar banho comigo?) e assim o fiz.
+ele disse: - Se você quiser.
+
+Abri a porta do banheiro e ele entrou.
+Ficamos um a frente do outro e eu comecei admirá-lo, ele tem muitos músculos, ombros grandes, queixo bonito. Comecei a tocá-lo levemente, naveguei pelos seus ombros, toquei em seus peitos fortes e até em sua barriga sarada(Nada sexual, era apenas uma sensação de descobrimento, como se eu estivesse apenas descobrindo coisas novas).
+Enquanto eu realizava estas ações sinto que rolou algo entre nós e as memórias do sonho foram se dissipando como nuvens e enfim… acordei
+`
+    },
+    {
+        id: 2,
+        titulo: "Manual de sobrevivência",
+        corpo: `Manual de sobrevivência 1.
+Por que eu tenho que sofrer tanto? 
+Parece que a caminhada até aqui só foi dor e machucados.
+Por favor, alguém me ajude.
+
+Manual de sobrevivência 2.
+Não é possível que os 17 realmente é a idade do inferno.
+Eu perdi muita coisa, tenho um vazio enorme que não consigo preencher e nem esquecer.
+Por mais que eu siga, em uma noite eu lembro e choro.
+Choro, choro, choro.`
+    }
+];
+
+// --- 4. FUNÇÃO QUE TROCA AS ABAS ---
+function showTab(category, clickedButton) {
+    const contentDiv = document.getElementById("content");
+    contentDiv.innerHTML = ""; // Limpa o conteúdo atual
+
+    // --- ABA DE POEMAS ---
+    if (category === 'poemas') {
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #b83612; margin-bottom: 20px;">🏹 Meus Poemas</h3>`;
+        
+        bancoDePoemas.forEach(poema => {
+            htmlContent += `
+                <div class="envelope-item" onclick="abrirPoema(${poema.id})">
+                    <span class="envelope-icon">✉️</span>
+                    <span>${poema.titulo}</span>
+                </div>
+            `;
+        });
+        contentDiv.innerHTML = htmlContent;
+    
+    // --- ABA DE CARTAS ---
+    } else if (category === 'cartas') {
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #0069aa; margin-bottom: 20px;">📜 Minhas Cartas</h3>`;
+        
+        bancoDeCartas.forEach(carta => {
+            htmlContent += `
+                <div class="envelope-item" onclick="abrirCarta(${carta.id})">
+                    <span class="envelope-icon">📜</span>
+                    <span>${carta.titulo}</span>
+                </div>
+            `;
+        });
+        contentDiv.innerHTML = htmlContent;
+
+    // --- ABA DE OUTROS (NOVO SISTEMA) ---
+    } else if (category === 'outros') {
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #5e8c00; margin-bottom: 20px;">🎒 Outros Textos</h3>`;
+        
+        bancoDeOutros.forEach(item => {
+            htmlContent += `
+                <div class="envelope-item" onclick="abrirOutro(${item.id})">
+                    <span class="envelope-icon">🎒</span>
+                    <span>${item.titulo}</span>
+                </div>
+            `;
+        });
+        contentDiv.innerHTML = htmlContent;
+    }
+
+    // --- GERENCIA OS BOTÕES ATIVOS ---
+    document.querySelectorAll('.stardew-tab').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('btn-home').classList.remove('active');
+    if (clickedButton) clickedButton.classList.add('active');
+}
+
+// --- 5. FUNÇÕES PARA ABRIR (MODAL) ---
+
+function abrirPoema(id) {
+    const item = bancoDePoemas.find(p => p.id === id);
+    if (item) preencherModal(item.corpo);
+}
+
+function abrirCarta(id) {
+    const item = bancoDeCartas.find(c => c.id === id);
+    if (item) preencherModal(item.corpo);
+}
+
+function abrirOutro(id) {
+    const item = bancoDeOutros.find(o => o.id === id);
+    if (item) preencherModal(item.corpo);
+}
+
+// Função auxiliar para evitar repetir código
+function preencherModal(texto) {
+    document.getElementById("letter-text").innerText = texto;
+    document.getElementById("carta-modal").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function fecharCarta() {
+    document.getElementById("carta-modal").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+function mostrarMensagemHome() {
+    const contentDiv = document.getElementById("content");
+    contentDiv.innerHTML = `
+        <h3 style="font-family: 'Press Start 2P'; margin-top:0; color: #d15e00;">🏡 Oii, bem-vindo!</h3>
+        <p>Criei esse site para depositar algumas escrituras que eu criei.<br>Clique nos botões acima para dar uma olhada nelas💜.</p>
+    `;
+    
+    document.querySelectorAll('.stardew-tab').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('btn-home').classList.add('active');
+}
+
+// Inicia na Home
+window.onload = mostrarMensagemHome;
+
+// --- 6. SISTEMA DE SOM ---
+function tocarSom() {
+    const audio = document.getElementById('som-clique');
+    if (audio) {
+        audio.currentTime = 0; 
+        audio.play().catch(error => console.log("Bloqueio de som: ", error));
+    }
+}
+
+document.addEventListener('click', function(e) {
+    if (e.target.matches('button, .stardew-tab, .home-button, .envelope-item, a, .envelope-icon')) {
+        tocarSom();
+    }
+    else if (e.target.closest('button') || e.target.closest('.envelope-item')) {
+        tocarSom();
+    }
+});

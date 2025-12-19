@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevoonie's Bouquet</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+    <div class="main-container">
+        
+        <div class="header">
+            <div class="portrait-container">
+                <img src="gatinhalinda.jpg" class="profile-pic" alt="Retrato">
+            </div>
+            <h1>Stevoonie's Bouquet</h1>
+        </div>
+
+        <div class="tabs">
+            <button class="stardew-tab" onclick="showTab('poemas', this)">Poemas</button>
+            <button class="stardew-tab" onclick="showTab('cartas', this)">Cartas</button>
+            <button class="stardew-tab" onclick="showTab('outros', this)">Outros</button>
+        </div>
+
+        <div class="dialogue-box">
+            <div id="content">
+                <p>Carregando...</p>
+            </div>
+            <div class="next-arrow"></div>
+        </div>
+
+    </div>
+
+    <button id="btn-home" class="home-button active" onclick="mostrarMensagemHome()" title="Voltar para casa">
+        <span class="icon">🏠</span>
+    </button>
+
+    <div id="overlay" onclick="fecharCarta()"></div>
+    <div id="carta-modal">
+        <p id="letter-text"></p>
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="stardew-tab" onclick="fecharCarta()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+</html>
