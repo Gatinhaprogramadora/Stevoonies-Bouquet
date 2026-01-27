@@ -71,6 +71,96 @@ Digo enquanto me engasgo com o doce amor do seu sangue.
 
 
 Stevoonie☆`
+    },
+    {
+        id: 4,
+        titulo: "Demoníaca",
+        corpo: `Que sensação é essa?
+Ela me deixa louca
+Estou desmanchando em prazer na sua frente
+O líbido e o tesão se concentram no alto do corpo
+
+Estou com sede
+Estou com fome
+
+Quero te morder, morder sua pele, 
+seus lábios, suas orelhas, suas bochechas…
+Irei te arranhar, arranhar suas costas, 
+seu peito, seu rosto, suas belas pernas…
+
+Não consigo ficar quieto
+Cada vez mais altos são meus gemidos
+Não consigo me controlar
+Essa vontade demoníaca de te experimentar
+
+Se mostra confiante
+Usa meus seios como brinquedos
+Me cavando em uma luxúria sem fim
+
+Mas antes do clímax
+Te beijo incontrolavelmente
+Enquanto subo em seu colo
+
+Te deixando louco com minha fome
+Demoníaca de prazer…
+
+
+Stevoonie☆`
+    },
+    {
+        id: 5,
+        titulo: "Little Star",
+        corpo: `Little Star
+        
+Eu sou uma pequena estrela
+vagando sem parar
+Procurando entre os planetas
+Onde queiram me amar
+
+Os homens? Me odeiam
+As mulheres? Se queixam
+Os amantes? Me cativam 
+Os pequenos? Me adoram
+
+Já a lua? 
+Ah, a pequena lua
+
+Ela me eleva
+Gosta da minha companhia
+Ela me reflete
+Me faz sentir gigante
+
+Libertando-me de uma carência galaxial
+Abrindo espaço para minha grandeza existencial
+
+Stevoonie☆`
+    },
+    {
+        id: 6,
+        titulo: "Olhos escuros",
+        corpo: `Olhos escuros
+        
+Meus olhos, pequenos olhos
+Parecidos com os de raposa
+Encantam sua dúvida
+Instigam sua multa
+
+Esses belos olhos negros escondem um segredo
+Como sua cor escura, te deixam com medo
+Mas por fim dessa escuridão a uma camada de afeto
+Te esperando como um beto
+
+Pequenos olhos que enfeitiçam
+Cílios que agitam
+Prove de sua incomparável dor
+Para se deleitar no meu amor.
+
+Meus olhos te amam? Sim
+Eles te desejam? Sim
+Eles brilham? Sim
+Eles te possuem? Não.
+
+Stevoonie☆`
     }
 ];
 
