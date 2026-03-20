@@ -75,7 +75,8 @@ Stevoonie☆`
     {
         id: 4,
         titulo: "Demoníaca",
-        corpo: `Que sensação é essa?
+        corpo: `Demoníaca
+Que sensação é essa?
 Ela me deixa louca
 Estou desmanchando em prazer na sua frente
 O líbido e o tesão se concentram no alto do corpo
@@ -159,6 +160,58 @@ Meus olhos te amam? Sim
 Eles te desejam? Sim
 Eles brilham? Sim
 Eles te possuem? Não.
+
+Stevoonie☆`
+    },
+    {
+        id: 7,
+        titulo: "Choro de put*",
+        corpo: `Choro de put*
+
+Deus, me tire daqui!
+
+Sinto um vazio em nossa relação, o amor já se retirou a tempos
+O que existe é uma mera hipocrisia de ambos os lados
+Que não se respeitam e nem se admiram, Não nos enxergamos.
+
+Apenas fechamos os olhos
+E fingimos que está tudo bem
+Mas eu não consigo fingir.
+
+Deus me ajude a sair daqui!
+
+Não aguento mais isso
+Quero estar num lugar que me sinta amado
+Que me desejem por perto
+Que eu seja a luz ou as trevas
+Que me respeitem…
+E que não me batam sem motivo.
+
+Por Deus!
+
+Sei que já cometi diversos erros
+Mas por incrível que pareça
+Eu não mereço isso
+Não mereço a falta de amor cotidiana
+Eu mereço ser livre.
+Devo ser feliz.
+
+Deus, me escute!
+
+Meus segredos são o que me sustentam
+Eles pesam, mas me ajudam
+O principal deles, me dá amor
+Me faz sentir como eu preciso
+O que eu não sinto em casa.
+
+Deus me perdoe!
+
+Isso tudo me deixa tão mal, tão negativa
+Estou com tanta raiva, Estou tão triste
+Está me fazendo mal, me desfazendo aos poucos
+O que eu mais amo, está deixando meu corpo aos poucos.
+
+Deus, me ajude!
 
 Stevoonie☆`
     }
