@@ -214,7 +214,80 @@ O que eu mais amo, está deixando meu corpo aos poucos.
 Deus, me ajude!
 
 Stevoonie☆`
-    }
+    },   
+    {
+        id: 8,
+        titulo: "Garota mágica",
+        corpo: `Garota mágica
+
+Te salvar é minha única função
+Deixar você feliz é parte da ação
+
+Mudar suas natureza ruim,
+Recordar sua alma bela…
+É para isso que eu sirvo
+
+Quebrar seu orgulho,
+desmembrar suas vergonhas…
+Por isso existo
+
+Não lute,
+Não saia,
+Não volte,
+Não tente me transformar.
+Pois isto que carrega meu amar.
+
+Me sacrificarei por inteiro
+Lutarei por você como um cavaleiro
+Pronta para usar minha tática mais eficaz
+Porque é isso que uma garota mágica faz…
+
+Stevoonie☆`
+    },
+    {
+        id: 9,
+        titulo: "Jovialmente Sexy",
+        corpo: `Jovialmente Sexy
+
+Há uma aura louca que me rodeia
+Os caras gostam, desejam-me como ceia
+Seus olhares fixos na minha cintura,
+denunciam seus desejos mais perversos.
+
+O que fiz para atrair tantos homens assim?
+Sou apenas jovem, magro, bonito, gótico
+Mas eles tomam para si uma figura de carmim
+Pronta para satisfazê-los em seus mais estranhos fetiches.
+
+Carrego o sentimento de superioridade,
+posso controlá-los, gerar sofrimento…
+Falsas esperanças que os enlouquecem
+enquanto penso se vale a experiência.
+
+Tomara que algum dia eles parem,
+pois esse meu corpo cheio de curvas 
+com belos dons joviais
+está muito longe de definhar.
+Stevoonie☆`
+    },
+    {
+        id: 10,
+        titulo: "Sonho de amor",
+        corpo: `Sonho de amor
+
+Ah meu amor, se você fosse um sonho,
+ eu nunca me cansaria de sonhar.
+
+Se você, meu amor, fosse o meu céu, 
+não me cansaria nunca de te olhar.
+
+Se você, meu ursinho, fosse uma borboleta, 
+te traria as melhores flores para você se deleitar.
+
+Se você, meu amorzinho, fosse o meu namorado, 
+não cansaria nunca de te amar.
+Stevoonie☆`
+    },
 ];
 
 // --- 2. BANCO DE DADOS DAS CARTAS ---
@@ -311,6 +384,33 @@ Não é possível que os 17 realmente é a idade do inferno.
 Eu perdi muita coisa, tenho um vazio enorme que não consigo preencher e nem esquecer.
 Por mais que eu siga, em uma noite eu lembro e choro.
 Choro, choro, choro.`
+    },
+    {
+        id: 3,
+        titulo: "Elvira",
+        corpo: `Elvira
+
+Estilo e escuridão
+Salto e paixão
+
+Palavras que descrevem os passos de forma exemplar
+Mas é claro que essas meras palavras não me definem de total forma.
+
+Preto, atriz de tv, sexy, meio vulgar, seios…
+Essas sim me definem, e claro, não podia me esquecer da palavra mais importante:
+Feiticeira.
+
+Os homens dessa mera sociedade atual ficam loucos com minhas curvas,
+mas pra ser sincera, parece que eles mesmos pensam com uma única cabeça (a de baixo).
+
+Quer dizer, meu cachorro é macho, mas ele tem mais cérebro que esses caras
+(Estou falando sério).
+
+O que quero dizer é, sou linda, seduzente, um tanto vulgar… já disse Linda?
+Enfim, sou Elvira, e espero que tenham gostado da minha apresentação.
+
+Stevoonie☆
+`
     }
 ];
 
