@@ -1,29 +1,30 @@
-/* --- S.CSS FINALIZADO E ATUALIZADO --- */
+/* --- S.CSS GÓTICO CARMESIM --- */
 
 /* 1. Importando fontes */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 
-/* 2. Variáveis de Cores */
+/* 2. Variáveis de Cores (Atualizadas para Gótico Carmesim) */
 :root {
-    --stardew-brown: #462208;
-    --stardew-orange: #e09049;
-    --stardew-bg: #ffae63; 
-    --dialogue-bg: #f8eeb6; 
+    --gothic-dark: #0d0202; /* Quase preto */
+    --gothic-crimson: #660000; /* Vermelho sangue escuro */
+    --gothic-border: #260000; /* Borda bem escura */
+    --gothic-text: #e6ccce; /* Texto pálido avermelhado */
+    --dialogue-bg: rgba(20, 5, 5, 0.85); /* Fundo da caixa de diálogo escuro e translúcido */
 }
 
 /* 3. O Site (Body) */
 body {
     margin: 0;
-    /* Imagem de fundo */
+    /* Imagem de fundo - Recomendo trocar a imagem de fundo por algo mais escuro depois! */
     background-image: url('fundo.jpg'); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
-    background-color: #2e2440;
+    background-color: var(--gothic-dark);
     
     font-family: 'VT323', monospace;
     font-size: 22px;
-    color: var(--stardew-brown);
+    color: var(--gothic-text);
     
     /* Cursor personalizado */
     cursor: url('https://cur.cursors-4u.net/games/gam-13/gam1282.cur'), auto;
@@ -53,11 +54,11 @@ button, a, .stardew-tab, .home-button, .envelope-item {
 .portrait-container {
     display: inline-block;
     padding: 6px;
-    background: #a05e26;
+    background: #330000; /* Fundo carmesim */
     box-shadow: 
-        inset 3px 3px 0 #e6a666,
-        inset -3px -3px 0 #6d3810,
-        3px 3px 5px rgba(0,0,0,0.5);
+        inset 3px 3px 0 #590000, /* Luz interna vermelha */
+        inset -3px -3px 0 #1a0000, /* Sombra interna escura */
+        3px 3px 5px rgba(0,0,0,0.8);
     border-radius: 4px;
 }
 
@@ -66,14 +67,14 @@ button, a, .stardew-tab, .home-button, .envelope-item {
     height: 140px;
     object-fit: cover;
     display: block;
-    border: 2px solid #5a3215;
+    border: 2px solid #110000;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 24px;
-    color: #ffdcb5;
-    text-shadow: 4px 4px 0 #6e3312;
+    color: #ff3333; /* Vermelho vivo pro título gritar */
+    text-shadow: 4px 4px 0 #1a0000;
     margin-top: 20px;
     letter-spacing: 1px;
 }
@@ -92,35 +93,35 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 11px;
     padding: 14px 20px;
-    background: linear-gradient(to bottom, #e88842, #cd6d34);
-    border: 3px solid #562308;
+    background: linear-gradient(to bottom, #590000, #260000);
+    border: 3px solid #000;
     border-radius: 4px;
-    color: #fff;
-    text-shadow: 2px 2px 0 #562308;
+    color: #ffd9d9;
+    text-shadow: 2px 2px 0 #000;
     position: relative;
     text-transform: uppercase;
     box-shadow: 
-        inset 2px 2px 0 rgba(255,255,255,0.4),
-        0 4px 0 #853812, 
-        0 5px 5px rgba(0,0,0,0.2);
+        inset 2px 2px 0 rgba(255,255,255,0.1),
+        0 4px 0 #110000, 
+        0 5px 5px rgba(0,0,0,0.6);
     transition: all 0.1s;
 }
 
 .stardew-tab:not(.active):hover {
     transform: translateY(-2px);
-    background: linear-gradient(to bottom, #fba966, #e38249);
+    background: linear-gradient(to bottom, #8b0000, #4d0000);
     box-shadow: 
-        inset 2px 2px 0 rgba(255,255,255,0.4),
-        0 6px 0 #853812, 
-        0 8px 8px rgba(0,0,0,0.2);
+        inset 2px 2px 0 rgba(255,255,255,0.2),
+        0 6px 0 #110000, 
+        0 8px 8px rgba(0,0,0,0.8);
 }
 
 .stardew-tab:active, .stardew-tab.active {
     transform: translateY(4px);
-    background: #cd6d34;
+    background: #330000;
     box-shadow: 
-        inset 2px 2px 0 rgba(0,0,0,0.2), 
-        0 0 0 #853812, 
+        inset 2px 2px 0 rgba(0,0,0,0.6), 
+        0 0 0 #110000, 
         0 0 0 rgba(0,0,0,0);
 }
 
@@ -133,9 +134,9 @@ h1 {
     line-height: 1.4;
     min-height: 200px;
     box-shadow: 
-        0 0 0 4px #b86f34,
-        0 0 0 8px #7a4216,
-        0 6px 12px rgba(0,0,0,0.5);
+        0 0 0 4px #4d0000,
+        0 0 0 8px #1a0000,
+        0 6px 12px rgba(0,0,0,0.8);
     margin-bottom: 80px;
     margin-top: 10px;
 }
@@ -143,7 +144,7 @@ h1 {
 .next-arrow {
     width: 20px;
     height: 20px;
-    background: radial-gradient(circle, #b83612 40%, transparent 40%);
+    background: radial-gradient(circle, #ff1a1a 40%, transparent 40%);
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -158,18 +159,20 @@ h1 {
 
 /* --- ESTILO DOS ENVELOPES (Para a lista de poemas) --- */
 .envelope-item {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(30, 5, 5, 0.7);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 2px solid #dba675;
+    border: 2px solid #4d0000;
     display: flex;
     align-items: center;
     gap: 10px;
     transition: background 0.2s;
+    color: var(--gothic-text);
 }
 .envelope-item:hover {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(60, 10, 10, 0.9);
+    border-color: #8b0000;
 }
 .envelope-icon {
     font-size: 24px;
@@ -182,38 +185,38 @@ h1 {
     right: 20px;
     width: 55px;
     height: 55px;
-    background: #ffce63;
-    border: 3px solid #6d3810;
+    background: #4d0000;
+    border: 3px solid #111;
     border-radius: 10px;
     font-size: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #6d3810;
+    color: #ffcccc;
     box-shadow: 
-        inset 3px 3px 0 rgba(255,255,255,0.5),
-        0 4px 0 #6d3810, 
-        0 6px 6px rgba(0,0,0,0.3);
+        inset 3px 3px 0 rgba(255,255,255,0.1),
+        0 4px 0 #111, 
+        0 6px 6px rgba(0,0,0,0.5);
     transition: all 0.1s;
     z-index: 100;
 }
 
 .home-button:hover {
-    background-color: #ffe094;
+    background-color: #8b0000;
     transform: translateY(-2px);
     box-shadow: 
-        inset 3px 3px 0 rgba(255,255,255,0.5),
-        0 6px 0 #6d3810, 
-        0 8px 8px rgba(0,0,0,0.3);
+        inset 3px 3px 0 rgba(255,255,255,0.2),
+        0 6px 0 #111, 
+        0 8px 8px rgba(0,0,0,0.6);
 }
 
 /* Estado Ativo (Clicado ou Selecionado) */
 .home-button:active, .home-button.active {
     transform: translateY(4px);
-    background-color: #e6b650;
+    background-color: #330000;
     box-shadow: 
-        inset 3px 3px 0 rgba(0,0,0,0.1),
-        0 0 0 #6d3810, 
+        inset 3px 3px 0 rgba(0,0,0,0.5),
+        0 0 0 #111, 
         0 0 0 rgba(0,0,0,0);
 }
 
@@ -222,7 +225,7 @@ h1 {
     display: none;
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.85); /* Fundo mais escuro */
     z-index: 200;
 }
 
@@ -237,14 +240,14 @@ h1 {
     max-height: 80vh;
     overflow-y: auto;
     
-    background: #fff8dc;
+    background: #1a0505; /* Fundo interno da carta escuro */
     padding: 30px;
-    border: 2px solid #8d5524;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border: 2px solid #660000;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.9);
     z-index: 201;
     font-family: 'VT323', monospace;
     font-size: 24px;
-    color: #462208;
+    color: var(--gothic-text);
 }
 
 /* --- ESTILO DA BARRA DE ROLAGEM --- */
@@ -252,13 +255,13 @@ h1 {
     width: 14px;
 }
 #carta-modal::-webkit-scrollbar-track {
-    background: #e0c292;
-    border: 2px solid #8b4513;
+    background: #2a0808;
+    border: 2px solid #111;
     border-radius: 4px;
 }
 #carta-modal::-webkit-scrollbar-thumb {
-    background-color: #d96a1e;
-    border: 2px solid #5e2804;
+    background-color: #660000;
+    border: 2px solid #111;
     border-radius: 4px;
 }
 
