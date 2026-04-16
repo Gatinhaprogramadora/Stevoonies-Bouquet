@@ -421,7 +421,7 @@ function showTab(category, clickedButton) {
 
     // --- ABA DE POEMAS ---
     if (category === 'poemas') {
-        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #b83612; margin-bottom: 20px;">🏹 Meus Poemas</h3>`;
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #ff3333; margin-bottom: 20px;">🏹 Meus Poemas</h3>`;
         
         bancoDePoemas.forEach(poema => {
             htmlContent += `
@@ -435,7 +435,7 @@ function showTab(category, clickedButton) {
     
     // --- ABA DE CARTAS ---
     } else if (category === 'cartas') {
-        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #0069aa; margin-bottom: 20px;">📜 Minhas Cartas</h3>`;
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #ff3333; margin-bottom: 20px;">📜 Minhas Cartas</h3>`;
         
         bancoDeCartas.forEach(carta => {
             htmlContent += `
@@ -449,7 +449,7 @@ function showTab(category, clickedButton) {
 
     // --- ABA DE OUTROS (NOVO SISTEMA) ---
     } else if (category === 'outros') {
-        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #5e8c00; margin-bottom: 20px;">🎒 Outros Textos</h3>`;
+        let htmlContent = `<h3 style="font-family: 'Press Start 2P'; color: #ff3333; margin-bottom: 20px;">🎒 Outros Textos</h3>`;
         
         bancoDeOutros.forEach(item => {
             htmlContent += `
@@ -500,7 +500,7 @@ function fecharCarta() {
 function mostrarMensagemHome() {
     const contentDiv = document.getElementById("content");
     contentDiv.innerHTML = `
-        <h3 style="font-family: 'Press Start 2P'; margin-top:0; color: #d15e00;">🏡 Oii, bem-vindo!</h3>
+        <h3 style="font-family: 'Press Start 2P'; margin-top:0; color: #ff3333;">🏡 Oii, bem-vindo!</h3>
         <p>Criei esse site para depositar algumas escrituras que eu criei.<br>Clique nos botões acima para dar uma olhada nelas💜.</p>
     `;
     
